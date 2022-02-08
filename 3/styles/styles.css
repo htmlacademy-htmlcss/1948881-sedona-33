@@ -1,0 +1,17 @@
+.welcome-sedona {
+  background-color: rgb(179, 170, 170);
+  background-image: url("../images/welcom-sedona.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+.subscription {
+  background-image: url("../images/background-mailing-list.jpg");
+  background-size: 1200px 100px;
+  background-repeat: no-repeat;
+}
+.hotels-catalog-parameters {
+  background-image: url("../images/background-catalog-hotels.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+
+}
