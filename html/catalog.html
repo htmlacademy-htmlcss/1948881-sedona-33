@@ -31,7 +31,7 @@
             <button class="favorites" type="button"><span class="visually-hidden">Избранное</span></button>
           </li>
           <li class="navigation-item">
-             <a class="navigation-link" href="#">хочу сюда!</a>
+             <a class="navigation-link want" href="#">хочу сюда!</a>
           </li>
         </ul>
       </nav>
@@ -98,7 +98,7 @@
                         </ul>
                     </fieldset>
                 <button class="button" type="submit">Применить</button>
-                <button class="button" type="submit">Сбросить</button>
+                <button class="button-reset" type="submit">Сбросить</button>
                 </form>
             </section>
             </header>
@@ -128,9 +128,9 @@
                     <h3 class="hotel-details-title">Amara Resort & Spa</h3>
                   </a>
                     <p class="home-text">Гостиница</p>
-                    <b class="hotel-details-price">от 4000</b>
+                    <p class="hotel-details-price">от 4000₽</p>
                     <a  class="hotel-details-button button" href="#">подробнее</a>
-                    <a class="hotel-details-button button" href="#">в избранное</a>
+                    <a class=" button" href="#">в избранное</a>
                     <div class="rating">
                      <div class="rating-stars"><span class="visially-hidden">4 звезды</span>
                     </div>
@@ -143,9 +143,9 @@
                     <h3 class="hotel-details-title">Desert Quail Inn</h3>
                   </a>
                     <p class="home-text">Гостиница</p>
-                    <b class="hotel-details-price">от 3000</b>
+                    <p class="hotel-details-price">от 3000₽</p>
                     <a  class="hotel-details-button button" href="#">подробнее</a>
-                    <a class="hotel-details-button button" href="#">в избранное</a>
+                    <a class=" button" href="#">в избранное</a>
                     <div class="rating">
                      <div class="rating-stars"><span class="visially-hidden">3 звезды</span>
                     </div>
@@ -158,9 +158,9 @@
                     <h3 class="hotel-details-title">Villas at Poco Diablo</h3>
                   </a>
                     <p class="home-text">Гостиница</p>
-                    <b class="hotel-details-price">от 2000</b>
+                    <p class="hotel-details-price">от 2000₽</p>
                     <a  class="hotel-details-button button" href="#">подробнее</a>
-                    <a class="hotel-details-button button" href="#">в избранное</a>
+                    <a class=" button" href="#">в избранное</a>
                     <div class="rating">
                      <div class="rating-stars"><span class="visially-hidden">2 звезды</span>
                     </div>
@@ -173,9 +173,9 @@
                     <h3 class="hotel-details-title">GreenTree Inn</h3>
                   </a>
                     <p class="home-text">Гостиница</p>
-                    <b class="hotel-details-price">от 3000</b>
+                    <p class="hotel-details-price">от 3000₽</p>
                     <a  class="hotel-details-button button" href="#">подробнее</a>
-                    <a class="hotel-details-button button" href="#">в избранное</a>
+                    <a class=" button" href="#">в избранное</a>
                     <div class="rating">
                      <div class="rating-stars"><span class="visially-hidden">2 звезды</span>
                     </div>
@@ -183,13 +183,9 @@
                   </div>
                 </li>
               </ul>
-              <table class="pagination-show-more"  border="1">
-                <tr class="row-pagination-show-more">
-                  <td class="data-pagination-show-more">
+              <div class="loading">
               <button class="button pagination-show-more" type="button">загрузить еще</button>
-            </td>
-            </tr>
-            </table>
+              </div>
               <ul class="pagination">
                 <li class="pagination-item">
                   <a class="pagination-link pagination-current">1</a>
@@ -224,13 +220,13 @@
               </ul>
               <span class="hotels-on-page">Гостинец на странице:</span>
               <select class="number-hotels-on-page" aria-label="число гостинец на странице">
-                <option class="namber-one" value="1">1</option>
-                <option class="namber-two" value="1">2</option>
-                <option class="namber-free" value="1">3</option>
-                <option class="namber-four" value="1">4</option>
+                <option class="number one" value="1">1</option>
+                <option class="number two" value="1">2</option>
+                <option class="number free" value="1">3</option>
+                <option class="number four" value="1">4</option>
               </select>
             </section>
-            <section class="subscription">
+            <section class="subscription-catalog">
               <h2 class="visially-hidden">Подписка на сайт</h2>
               <p class="subscription-description">Подпишитесь на рассылку</p>
               <p class="subscription-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
@@ -256,12 +252,12 @@
         </ul>
       </section>
       <section class="phone">
-        <h2 class="visually-hidden">+7 (812) 812-12-12</h2>
+        <h2 class="visually-hidden">Номер телефона сайта</h2>
         <a class="phone-contact" href="tel:+78128121212">+7 (812) 812-12-12</a>
       </section>
         <section class="contact-site">
         <h2 class="visually-hidden">HTMLACADEMY</h2>
-        <a class="contact-site" href="https://htmlacademy.ru/"><img class="logo-htmlacademy" src="" alt="Логотип сайта HTMLACADEMY"></a>
+        <a class="contact-site" href="https://htmlacademy.ru/"><img class="logo-htmlacademy" src="../images/Group.svg" alt="Логотип сайта HTMLACADEMY"></a>
       </section>
     </footer>
   </body>
