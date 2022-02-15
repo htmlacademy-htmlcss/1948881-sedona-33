@@ -1,0 +1,321 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2")  format("woff2");
+  font-display: swap;
+}
+body {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-size:  18px;
+  line-height: 21px;
+  color: black;
+  background-color: white;
+}
+.button {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  color: white;
+  background-color:#83B3D3;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.page-header {
+  color: black;
+  background-color: white;
+}
+.navigation-link {
+  color: black;
+  background-color: white;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+}
+.navigation-user li:last-child {
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.want {
+  color: white;
+  background-color: #615048;
+}
+.benefits-sedona {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.sedona-the-best {
+  font-size: 22px;
+  line-height: 36px;
+  font-weight: 400;
+  color: #333333;
+  text-transform: none;
+}
+.causes-list {
+  text-align: center;
+}
+.sedona,.bridge {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  background-color: #83B3D3;
+  color: white;
+}
+.sedona .causes-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.bridge .causes-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.causes-city-item .causes-city-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  color:black ;
+  text-transform: uppercase;
+  text-align: center;
+}
+.causes-city-item .cuses-city-desrription {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #333333;
+  text-transform: none;
+  text-align: center;
+}
+.causes-city-list{
+  background-color:white;
+}
+.causes-city-list li:nth-child(1) {
+  background-color:#83B3D31F;
+}
+.causes-city-list li:nth-child(3) {
+  background-color:#83B3D31F;
+}
+.img-food,.img-home,.img-present {
+  color: black;
+}
+.little .causes-title,.road .causes-title,.tourists .causes-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+.little,.tourists {
+  background-color: #83B3D31F;
+}
+.road {
+  background-color:  #83B3D333;
+}
+.hotel-main {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
+.interest {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.hotel-link {
+  font-size: 20px;
+  line-height: 36px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: white;
+  background-color:#615048;
+}
+.subscription {
+color: white;
+background-color: black;
+text-align: center;
+}
+.visially-hidden + .subscription-description {
+font-size: 30px;
+font-weight: 700;
+line-height: 36px;
+text-transform: uppercase;
+}
+.subscription + .subscription-description {
+font-size: 22px;
+font-weight: 400;
+line-height: 26px;
+}
+.newsletter-email {
+font-size: 20px;
+font-weight: 700;
+line-height: 26px;
+color: white;
+background-color:#83B3D3;
+text-transform: uppercase;
+}
+.page-footer {
+text-align: center;
+}
+.phone-contact {
+font-size: 40px;
+line-height: 40px;
+text-decoration: none;
+color: black;
+}
+
+
+.hotels-catalog-parameters {
+  color: white;
+  background-color: #333333;
+}
+.hotel {
+font-size: 60px;
+font-weight: 700;
+line-height: 78px;
+letter-spacing: 0em;
+text-align: left;
+}
+.breadcrumbs {
+font-size: 16px;
+line-height: 21px;
+}
+.breadcrumbs-link {
+  text-decoration: none;
+color: white;
+}
+.parameters-title {
+font-size: 20px;
+font-weight: 700;
+line-height: 26px;
+}
+.control {
+font-size: 18px;
+line-height: 23px;
+}
+.button-reset{
+  font-size: 18px;
+line-height: 23px;
+color: white;
+background: transparent;
+border: none;
+}
+.sorting-text {
+font-size: 30px;
+font-weight: 700;
+line-height: 39px;
+}
+.select-control {
+font-size: 18px;
+line-height: 23px;
+color:  #333333;
+}
+.button-view {
+  color: black;
+  background-color: white;
+}
+.hotel-details-link {
+text-decoration: none;
+font-size: 24px;
+font-weight: 700;
+line-height: 31px;
+color: black;
+}
+.home-text,.hotel-details-price {
+font-size: 18px;
+line-height: 23px;
+color:  #333333;
+}
+.hotel-details-button {
+background-color:  #756257;
+}
+.rating-stars {
+color: #83B3D3;
+}
+.rating-number {
+font-size: 16px;
+line-height: 21px;
+text-align: center;
+background-color:  #F2F2F2;
+}
+.loading {
+text-align: center;
+border-bottom: 1px solid #E5E5E5 ;
+border-top:  1px solid #E5E5E5;
+}
+.pagination-link {
+font-size: 20px;
+font-weight: 700;
+line-height: 26px;
+color: white;
+background-color:#83B3D3;
+text-decoration: none;
+}
+.pagination-current  {
+font-size: 20px;
+font-weight: 700;
+line-height: 26px;
+text-decoration: none;
+color: black;
+background-color:  #F2F2F2;
+}
+.pagination-show-more {
+border-top: 1px solid #E5E5E5;
+border-bottom: 1px solid #E5E5E5;
+border-left: none;
+border-right: none;
+text-align: center;
+}
+.hotels-on-page, .number-hotels-on-page {
+font-size: 18px;
+line-height: 23px;
+}
+.subscription-catalog {
+  text-align: center;
+}
+.subscription-catalog  .subscription-description + .subscription-description{
+font-size: 22px;
+line-height: 26px;
+}
+.field {
+  background-color: #F2F2F2;
+}
+.welcome-sedona {
+background-color: rgb(179, 170, 170);
+background-image: url("../images/welcom-sedona.jpg");
+background-size: 100% auto;
+background-repeat: no-repeat;
+text-align: center;
+}
+.subscription {
+background-image: url("../images/background-mailing-list.jpg");
+background-size: 100% auto;
+background-repeat: no-repeat;
+}
+.hotels-catalog-parameters {
+background-image: url("../images/background-catalog-hotels.jpg");
+background-size: 100% auto;
+background-repeat: no-repeat;
+}
+
+
+
+
