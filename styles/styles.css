@@ -12,13 +12,24 @@
   src: url("../fonts/ptsans-700.woff2")  format("woff2");
   font-display: swap;
 }
+html {
+  height: 100%;
+}
 body {
+  margin: 0 40px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  width: 1200px;
   font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-size:  18px;
   line-height: 21px;
   color: black;
   background-color: white;
+}
+.main-content{
+  margin: 0 auto;
 }
 .button {
   font-size: 20px;
@@ -33,6 +44,24 @@ body {
   color: black;
   background-color: white;
 }
+.navigation {
+  display: flex;
+  width: 1060px;
+  margin: 0 auto;
+}
+.navigation-link-img {
+  margin-left: 0;
+  margin-right: 30px;
+}
+.navigation-list {
+  width: 345px;
+  margin: 0;
+  padding: 0;
+}
+.navigation-user {
+  max-width: 300px;
+  margin-left: auto;
+}
 .navigation-link {
   color: black;
   background-color: white;
@@ -41,6 +70,9 @@ body {
   font-weight: 700;
   text-align: center;
   text-decoration: none;
+}
+.main-container {
+  flex-grow: 1;
 }
 .navigation-user li:last-child {
   font-size: 16px;
@@ -65,7 +97,13 @@ body {
   color: #333333;
   text-transform: none;
 }
+.real-city{
+  display: flex;
+  margin: 0;
+}
 .causes-list {
+  margin: 0;
+  padding: 0;
   text-align: center;
 }
 .sedona,.bridge {
@@ -75,6 +113,9 @@ body {
   text-align: center;
   background-color: #83B3D3;
   color: white;
+}
+.bridge {
+  display: flex;
 }
 .sedona .causes-title {
   font-size: 24px;
@@ -87,6 +128,12 @@ body {
   line-height: 28px;
   font-weight: 700;
   text-transform: uppercase;
+}
+.causes-city-item {
+  width: 400px;
+}
+.block-little-road-tourists {
+  display: flex;
 }
 .causes-city-item .causes-city-title {
   font-size: 24px;
@@ -105,6 +152,8 @@ body {
   text-align: center;
 }
 .causes-city-list{
+  display: flex;
+  padding: 0;
   background-color:white;
 }
 .causes-city-list li:nth-child(1) {
@@ -124,9 +173,11 @@ body {
 }
 .little,.tourists {
   background-color: #83B3D31F;
+  width: 400px;
 }
 .road {
   background-color:  #83B3D333;
+  width: 400px;
 }
 .hotel-main {
   font-size: 22px;
@@ -175,6 +226,25 @@ text-transform: uppercase;
 .page-footer {
 text-align: center;
 }
+.container-page-footer {
+  display: flex;
+  padding: 0 72px;
+}
+.conact-list{
+  padding: 0;
+}
+.contact{
+  width:107px;
+  margin-right:auto ;
+}
+.phone {
+  width: 720px;
+}
+.contact-site {
+  width: 115px;
+  margin-left:auto ;
+}
+
 .phone-contact {
 font-size: 40px;
 line-height: 40px;
@@ -201,6 +271,36 @@ line-height: 21px;
 .breadcrumbs-link {
   text-decoration: none;
 color: white;
+}
+.filter-parameters {
+  display: flex;
+  width: 1060px;
+  padding: 0 70px;
+}
+.parameters-group {
+  width: 210px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.parameters-group-type {
+  width: 310px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.cost {
+  width: 370px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.container-hotels-button {
+  width: 170px;
+}
+.sorting {
+display: flex;
+
 }
 .parameters-title {
 font-size: 20px;
