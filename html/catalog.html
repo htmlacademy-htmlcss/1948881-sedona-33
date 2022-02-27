@@ -8,30 +8,32 @@
   <body class="main-content">
     <header class="page-header">
       <nav class="navigation">
+        <div class="logo-website">
         <a class="logo-link" href="main-page.html"">
-          <img class="navigation-link-img"   src="../images/logo.svg" width="139" height="70" alt="Логотип города Седоны">
-        </a>
-        <ul class="navigation-list">
-         <li class="navigation-item">
+        <img class="navigation-link-img"   src="../images/logo.svg" width="139" height="70" alt="Логотип города Седоны">
+      </a>
+      </div>
+        <ul class="navigation-list navigation-website">
+        <li class="navigation-item">
           <a class="navigation-link" href="main-page.html">Главная</a>
-         </li>
-         <li class="navigation-item">
+        </li>
+        <li class="navigation-item">
           <a class="navigation-link" href="about-Sedona.html"> О Cедоне</a>
-         </li>
-         <li class="navigation-item">
+        </li>
+        <li class="navigation-item">
           <a class="navigation-link" href="catalog.html">Гостиницы</a>
-         </li>
+        </li>
         </ul>
         <ul class="navigation-list navigation-user">
           <li class="navigation-item">
-           <a class="navigation-link" href="#">
-             <span class="visually-hidden">Поиск</span></a>
+          <a class="navigation-link" href="#">
+            <span class="visually-hidden">Поиск</span></a>
           </li>
           <li class="navigation-item">
-            <button class="favorites" type="button"><span class="visually-hidden">Избранное</span></button>
+            <button class="favorites" type="button" ><span class="visually-hidden">Избранное</span></button>
           </li>
           <li class="navigation-item ">
-             <a class="navigation-link want" href="#">хочу сюда!</a>
+            <a class="navigation-link want" href="#">хочу сюда!</a>
           </li>
         </ul>
       </nav>
@@ -72,7 +74,7 @@
                             </label>
                         </li>
                     </ul>
-                     </fieldset>
+                    </fieldset>
                     <fieldset class="parameters-group-type">
                         <legend class="parameters-title">Тип жилья:</legend>
                         <ul class="filter-parameters-list">
@@ -108,6 +110,7 @@
             </section>
             </header>
             <section class="sorting">
+
               <h2 class="visually-hidden" hidden>Сортировка</h2>
               <p class="sorting-text">найдено гостиниц:38</p>
               <select class="select-control" aria-label="сортировка">
@@ -123,9 +126,10 @@
               <a href="#" class="button button-view">
                 <span class="visually-hidden">Показать списком</span>
               </a>
+
             </section>
             <section class="searching-results">
-              <h2 class="visially-hidden">Результаты поиска:</h2>
+              <h2 class="visually-hidden">Результаты поиска:</h2>
               <ul class="hotel-details-list">
                 <li class="hotel-details-card">
                   <a class="hotel-details-link" href="#">
@@ -137,7 +141,7 @@
                     <a  class="hotel-details-button button" href="#">подробнее</a>
                     <a class=" button" href="#">в избранное</a>
                     <div class="rating">
-                     <div class="rating-stars"><span class="visially-hidden">4 звезды</span>
+                    <div class="rating-stars"><span class="visially-hidden">4 звезды</span>
                     </div>
                     <span class="rating-number">рейтинг:8,5</span>
                   </div>
@@ -152,7 +156,7 @@
                     <a  class="hotel-details-button button" href="#">подробнее</a>
                     <a class=" button" href="#">в избранное</a>
                     <div class="rating">
-                     <div class="rating-stars"><span class="visially-hidden">3 звезды</span>
+                    <div class="rating-stars"><span class="visially-hidden">3 звезды</span>
                     </div>
                     <span class="rating-number">рейтинг:8,9</span>
                   </div>
@@ -167,7 +171,7 @@
                     <a  class="hotel-details-button button" href="#">подробнее</a>
                     <a class=" button" href="#">в избранное</a>
                     <div class="rating">
-                     <div class="rating-stars"><span class="visially-hidden">2 звезды</span>
+                    <div class="rating-stars"><span class="visially-hidden">2 звезды</span>
                     </div>
                     <span class="rating-number">рейтинг:9,2</span>
                   </div>
@@ -182,7 +186,7 @@
                     <a  class="hotel-details-button button" href="#">подробнее</a>
                     <a class=" button" href="#">в избранное</a>
                     <div class="rating">
-                     <div class="rating-stars"><span class="visially-hidden">2 звезды</span>
+                    <div class="rating-stars"><span class="visially-hidden">2 звезды</span>
                     </div>
                     <span class="rating-number">рейтинг:9,2</span>
                   </div>
@@ -191,6 +195,7 @@
               <div class="loading">
               <button class="button pagination-show-more" type="button">загрузить еще</button>
               </div>
+              <div class="conteiner-pagination">
               <ul class="pagination">
                 <li class="pagination-item">
                   <a class="pagination-link pagination-current">1</a>
@@ -220,7 +225,7 @@
                   <a class="pagination-link" href="#">9</a>
                 </li>
                 <li class="pagination-item">
-                  <a class="pagination-link" href="#">10</a>
+                  <a class="pagination-link last-number" href="#">10</a>
                 </li>
               </ul>
               <span class="hotels-on-page">Гостинец на странице:</span>
@@ -230,30 +235,31 @@
                 <option class="number free" value="1">3</option>
                 <option class="number four" value="1">4</option>
               </select>
+            </div>
             </section>
             <section class="subscription-catalog">
-              <h2 class="visially-hidden">Подписка на сайт</h2>
+              <h2 class="visually-hidden">Подписка на сайт</h2>
               <p class="subscription-description">Подпишитесь на рассылку</p>
-              <p class="subscription-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
-                <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
+              <p class="subscription-description">Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
+                <form class="newsletter-form-catalog" action="https://echo.htmlacademy.ru/" method="post">
                   <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email">
                   <button class="button newsletter-email" type="submit">Подписаться</button>
                 </form>
             </section>
-         </main>
-         <footer class="page-footer">
+        </main>
+        <footer class="page-footer">
           <div class="container-page-footer">
           <section class="contact">
             <h2 class="visually-hidden">Контакты</h2>
-            <ul class="conact-list">
+            <ul class="contact-list">
               <li class="contact-item">
-                <a class="button" href="https://twitter.com/htmlacademy_ru"><span class="visually-hidden">Twitter</span></a>
+                <a class="button" href="https://twitter.com/htmlacademy_ru"><span class="visually-hidden">twitter</span></a>
               </li>
               <li class="contact-item">
-                <a class="button" href="https://www.facebook.com/htmlacademy"><span class="visually-hidden">Facebook</span></a>
+                <a class="button" href="https://www.facebook.com/htmlacademy"><span class="visually-hidden">facebook</span></a>
               </li>
               <li class="contact-item">
-                <a class="button" href="https://www.youtube.com/c/HTMLAcademyRUS"><span class="visually-hidden">YouTube</span></a>
+                <a class="button" href="https://www.youtube.com/c/HTMLAcademyRUS"><span class="visually-hidden">youtube</span></a>
               </li>
             </ul>
           </section>
